@@ -1,0 +1,36 @@
+.contentW{
+    display: block;
+    width: 80vw;
+    margin: auto;
+}
+
+.cardTitle{
+   line-height: 38px; 
+}
+
+.card{ transition: .4s;}
+.card.active{
+    background-color: #4bff0040;
+    transition: .2s;
+}
+.card.pause{
+    background-color: #f0ff0040;
+    transition: .2s;
+}
+
+.timer{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 18px;
+    font-style: initial;
+    font-weight: bold;
+    color: #5b6975;
+}
+.isadi > input{
+    display: inline-block;
+    width: calc(100% - 234px);
+}
+
+.addButton{
+    width: 100%;
+}
